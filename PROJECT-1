@@ -1,0 +1,159 @@
+// Q1
+// var str1 = 'Today is';
+// var str2 = '      a beautiful day     ';
+// var str3 = ' In Hawaii.     ';
+// var result = str1 + str2 + str3 ;
+// console.log(str1 +' '+ str2.trim() +' '+ str3.trim());
+
+
+//  Q2
+
+// var input = prompt('enter your input');
+
+// if(input.toLowerCase()!==input.toUpperCase()){ 
+
+//     var input2 = input.toLowerCase();
+
+
+//     switch (input2) {
+//         case 'a':
+//             message = 'vowel';
+
+//             break;
+//         case 'e':
+//             message = 'vowel';
+//             break;
+//         case 'i':
+//             message = 'vowel';
+//             break;
+//         case 'o':
+//             message = 'vowel';
+//             break;
+//         case 'u':
+//             message = 'vowel';
+//             break;
+
+//         default:
+//             message = 'consonant';
+//             break;
+//     }
+
+//     console.log(message);
+// }
+// else {
+//     console.log("non alphabet");
+// }
+
+// Q3
+
+// function sum() {
+//     var num1 = prompt('enter number 1');
+//     var num2 = prompt('enter number 2');
+
+//     num1 = parseInt(num1);
+//     num2 = parseInt(num2);
+
+//     console.log(num1 + num2);
+// }
+
+// function difference() {
+//     var num1 = prompt('enter number 1');
+//     var num2 = prompt('enter number 2');
+
+//     num1 = parseInt(num1);
+//     num2 = parseInt(num2);
+
+//     console.log(num1 - num2);
+// }
+
+// function divide() {
+//     var num1 = prompt('enter number 1');
+//     var num2 = prompt('enter number 2');
+
+//     num1 = parseInt(num1);
+//     num2 = parseInt(num2);
+
+//     console.log(num1 / num2);
+// }
+
+// function multiplication() {
+//     var num1 = prompt('enter number 1');
+//     var num2 = prompt('enter number 2');
+
+//     num1 = parseInt(num1);
+//     num2 = parseInt(num2);
+
+//     console.log(num1 * num2);
+// }
+
+// var operation = prompt('enter the operation');
+
+// switch (operation) {
+
+//     case "+":
+//         sum();
+//         break;
+
+//     case "-":
+//         difference();
+//         break;
+
+//     case "/":
+//         divide();
+//         break;
+
+//     case "*":
+//         multiplication();
+//         break;
+// }
+
+// Q4
+
+// var num1 = prompt('enter first side');
+// var num2 = prompt('enter second side');
+// var num3 = prompt('enter third side');
+
+// num1 = parseInt(num1);
+// num2 = parseInt(num2);
+// num3 = parseInt(num3);
+
+// if(num1==num2&&num2==num3) {
+//     console.log('triangle is equilateral');
+// }
+// else if(num1==num2||num1==num3||num2==num3) {
+//     console.log('triangle is isosceles');
+// }
+// else {
+//     console.log('triangle is scalene');
+// }
+
+// Q5
+
+// var num1 = prompt('enter your bill');
+// num1 = parseInt(num1);
+
+// if (num1 <= 50) {
+//     num2 = num1 * 0.5;
+//     console.log("your bill is :" + num2);
+// }
+// if (51 <= num1 && num1 <= 150) {
+//     num3 = num1 - 50;
+//     num4 = num3 * 0.75;
+//     numFinal = num4 + 25;
+//     console.log("your bill is :" + numFinal);
+// }
+// if (151 <= num1 && num1 <= 250) {
+//     num5 = num1 - 150;
+//     num6 = num5 * 1.2;
+//     numFinal2 = num6 + 100;
+//     console.log("your bill is :" + numFinal2);
+
+// }
+// if (num1 > 250) {
+//     num7 = num1 - 250;
+//     num8 = num7 * 1.5;
+//     numFinal3 = num8 + 220;
+//     numFinal4 = numFinal3 + 0.2 * numFinal3;
+//     console.log("your bill is :" + numFinal4);
+
+// }
